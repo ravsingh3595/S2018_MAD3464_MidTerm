@@ -1,26 +1,25 @@
 public class LambtonStringTools {
 
-    private String s1 = "Lambton";;
-    private char c[] = s1.toCharArray();
+
     private String s2;
 
     public LambtonStringTools(){}
 
-//    public LambtonStringTools(String s) {
-//        this.s1
-//    }
-
-    public void reverse()
+    public String reverse(String s)
     {
+         char c[] = s.toCharArray();
+
         for (int i = c.length-1; i >= 0; i--)
         {
             System.out.print(c[i]);
-
         }
-
+        return null;
     }
-    public void binaryToDecimal()
+    /*public int binaryToDecimal(String s)
     {
 
-    }
+
+
+       return
+    }*/
 }
