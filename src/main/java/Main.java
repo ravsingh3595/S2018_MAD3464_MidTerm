@@ -2,8 +2,6 @@ public class Main
 {
     public static void main(String args[])
     {
-//        LambtonStringTools first = new LambtonStringTools();
-//        first.reverse("Lambton");
 //
 //        LambtonStringTools second = new LambtonStringTools();
 //        second.binaryToDecimal("1100");
@@ -12,8 +10,12 @@ public class Main
 //        fourth.initials(".James .tiBeriUs .kiRK");
 
         BinaryToDecimal a = new BinaryToDecimal();
-        int b = a.binaryToDecimal("0001");
+        int b = a.binaryToDecimal("00011.11");
         System.out.println(b);
+
+        Reverse first = new Reverse();
+        String first1 = first.reverse("LAMBTON");
+        System.out.println(first1);
 
 //        ReplaceSubString b1 = new ReplaceSubString();
 //        b1.hello();
